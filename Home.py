@@ -9,21 +9,19 @@ with col1:
     st.image("images/photo.png")
 
 with col2:
-    st.title("Ardit Sulce")
-    content = """
-    Hi, I am Ardit! I am Python programmer, teacher and founder of PythonHow. 
-    I graduated in 2013 with a Master of Science in Geospatial Technologies from the University of 
-    Muenster in Germany with a focus on using Python for remote sensing. I have worked with companies 
-    from various countries, such as the Center for Conservation Geography, to map and understand 
-    Australian ecosystems, image processing with the Swiss in-Tera, and performing data mining to 
-    gain business insights with the Australian Rapid Intelligence.
-    """
+    st.title("Ranjit Kumar Yadav")
+    content = """Hi, I am Ranjit! I am a Python programmer and a 
+    Full Stack Developer currently working at Cognizant. I graduated in 2022 
+    with a Bachelor of Technology in Computer Science. Additionally, I hold 
+    a three-year diploma in Computer Science Engineering. My expertise lies 
+    in developing web applications using Python and related technologies. At 
+    Cognizant, I contribute to various software projects, leveraging my 
+    skills in both front-end and back-end development. """
 
     st.info(content)
 
-content2 = """
-Below you can find some of the apps I have built in Python. Fell free to contact me!
-"""
+content2 = """Below you can find some of the apps I have built in Python. 
+Fell free to contact me! """
 st.write(content2)
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
@@ -31,14 +29,14 @@ col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 df = pandas.read_csv("data.csv", sep=";")
 
 with col3:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:4].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
 
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[4:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
