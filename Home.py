@@ -10,13 +10,15 @@ with col1:
 
 with col2:
     st.title("Ranjit Kumar Yadav")
-    content = """Hi, I am Ranjit! I am a Python programmer and a 
-    Full Stack Developer currently working at Cognizant. I graduated in 2022 
-    with a Bachelor of Technology in Computer Science. Additionally, I hold 
-    a three-year diploma in Computer Science Engineering. My expertise lies 
-    in developing web applications using Python and related technologies. At 
-    Cognizant, I contribute to various software projects, leveraging my 
-    skills in both front-end and back-end development. """
+    content = """Hi, I am Ranjit! a passionate Python programmer and 
+    Full Stack Developer at Cognizant, dedicated to crafting 
+    innovative solutions. Armed with a Bachelor's in 
+    Computer Science (2022) and a three-year diploma in 
+    Computer Science Engineering, I specialize in creating 
+    dynamic web applications using Python and related technologies. 
+    With a keen interest in data science, I integrate PySpark into 
+    my projects for efficient big data processing and analysis, 
+    ensuring our solutions are both scalable and insightful. """
 
     st.info(content)
 
