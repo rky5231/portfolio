@@ -10,7 +10,7 @@ with col1:
 
 with col2:
     st.title("Ranjit Kumar Yadav")
-    content = """Hi, I am Ranjit! A dedicated Full Stack Developer with a passion for creating innovative web solutions. I specialize in Java, Spring Boot, ReactJS, and AWS, bringing robust and dynamic applications to life. I hold a Bachelor's degree in [Your Degree] and have additional proficiency in Front-End UI Development and MySQL Query Concepts.
+    content = """Hi, I am Ranjit! A dedicated Full Stack Developer with a passion for creating innovative web solutions. I specialize in Java, Spring Boot, ReactJS, and AWS, bringing robust and dynamic applications to life. I hold a Bachelor's degree in Computer Science Engineering and have additional proficiency in Front-End UI Development and MySQL Query Concepts.
 
 With a strong foundation in both back-end and front-end technologies, I excel in crafting seamless user experiences. My expertise extends to Python, where I leverage its versatility to solve complex problems. I am committed to delivering high-quality, scalable solutions that meet modern web standards. """
 
